@@ -1,20 +1,38 @@
+{# @pebvariable name="contactList" type="java.util.List<ch.fhnw.webec.contactlist.model.ContactListEntry>" #}
+{# @pebvariable name="contact" type="ch.fhnw.webec.contactlist.model.Contact" #}
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="{{ href("/style.css") }}">
-    <title>Contacts</title>
-</head>
+    <title>Contacts</title></head>
 <div id="container">
-    <header>
-        <h1>Contact List</h1>
-    </header>
-    <main>
-        <h1>Contacts</h1>
-        <p><em>TODO</em></p>
+    <header><h1>Contact List</h1></header>
+    <main><h1>Contacts</h1>        {% if contact != null %}
+        {% macro listRow(label, list) %}
+            <tr>
+                <td>
+                    <ul>                                {% for e in list %}
+                        <li> {{ e }}</li>                                {% endfor %}
+                    </ul>
+                </td>
+            </tr>            {% endmacro %}
+        {% macro simpleRow(label, value) %}
+            <tr>
+                <td>{{ label }}</td>
+                <td>{{  value }}</td>
+            </tr>            {% endmacro %}
+        <table>                {{ simpleRow("First Name", contact.firstName) }}
+                {{ simpleRow("Last Name", contact.lastName) }}
+                {{ listRow("E-Mail adresses", contact.email) }}
+                {{ listRow("Phone numbers", contact.phone) }}
+                {{ simpleRow("Company", contact.company) }}
+                {{ simpleRow("Job Title", contact.jobTitle) }}
+        </table>        {% endif %}
+        <ul>                {% for entry in contactList %}
+            <li><a href="/contacts/{{entry.id}}">{{ entry.name }}<br></a></li>                {% endfor %}
+        </ul>
     </main>
-    <footer>
-        built with <a href="https://spring.io/">Spring</a>
-    </footer>
+    <footer> built with <a href="https://spring.io/">Spring</a></footer>
 </div>
 </html>

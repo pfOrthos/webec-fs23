@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lengthconverter" />
+        <module name="contactlist-pebble" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="contactlist-pebble" target="17" />
+      <module name="lengthconverter" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="contactlist-pebble" options="-parameters" />
+      <module name="lengthconverter" options="-parameters" />
+    </option>
+  </component>
+</project>
