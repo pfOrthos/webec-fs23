@@ -62,3 +62,49 @@ footer {
     color: #737373;
     margin-bottom: 2em;
 }
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactList {
+    flex-basis: 45%;
+    margin-right: 2%;
+}
+
+.contactDetails {
+    flex-basis: 45%;
+    margin-left: 2%;
+}
+
+.contacts .contactList .active a {
+    color: black;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav li a {
+    color: #333;
+    text-decoration: none;
+}
+
+nav li.active a {
+    color: #000;
+    font-weight: bold;
+}
+nav li :hover{
+    color: crimson;
+    font-weight: bold;
+}

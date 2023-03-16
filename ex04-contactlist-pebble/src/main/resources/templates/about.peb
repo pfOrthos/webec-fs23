@@ -1,0 +1,24 @@
+    {% extends "layout" %}
+
+        {% block title %}About{% endblock %}
+
+    {% block main %}
+    <h2>About</h2>
+    <p>This is a simple contact list application built with Spring Boot and Pebble templates.</p>
+    <p>Check out the <a href="https://www.fhnw.ch/" target="_blank">website of the FHNW</a> for more information about the university.</p>
+    <h3>Statistics</h3>
+    <table>
+        <tr>
+            <td>Number of contacts:</td>
+            <td>hier kommt berechnung</td>
+        </tr>
+        <tr>
+            <td>Number of phone numbers:</td>
+            <td>hier kommt berechnung</td>
+        </tr>
+        <tr>
+            <td>Number of email addresses:</td>
+            <td>hier kommt berechnung</td>
+        </tr>
+    </table>
+    {% endblock %}

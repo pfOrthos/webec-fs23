@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
+
 import static org.springframework.http.HttpStatus.NOT_FOUND;
 
 @Controller
@@ -24,7 +25,21 @@ public class ContactsController {
         model.addAttribute("contactList", service.getContactList());
         return "contacts";
     }
-
+    @GetMapping("/index")
+    public String index(Model model) {
+        model.addAttribute("contactList", service.getContactList());
+        return "index";
+    }
+    @GetMapping("/about")
+    public String about(Model model) {
+/*        //long contactsCount = contactRepository.count();
+        //long phoneCount = contactRepository.countPhoneNumbers();
+        //long emailCount = contactRepository.countEmailAddresses();
+        model.addAttribute("contactsCount", contactsCount);
+        model.addAttribute("phoneCount", phoneCount);
+        model.addAttribute("emailCount", emailCount);*/
+        return "about";
+    }
     @GetMapping("/contacts/{id}")
     public String showContact(@PathVariable int id, Model model) {
         var contact = service.findContact(id).orElseThrow(ContactNotFound::new);

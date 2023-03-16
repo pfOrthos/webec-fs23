@@ -1,0 +1,13 @@
+    {% extends "layout" %}
+
+        {% block title %}Home{% endblock %}
+
+        {% block header %}
+        Welcome to our contact list app
+        {% endblock %}
+
+    {% block main %}
+    <p>
+        This is the homepage of our contact list app. Please visit the <a href="/contacts">contacts</a> page to view the list of contacts.
+    </p>
+    {% endblock %}
