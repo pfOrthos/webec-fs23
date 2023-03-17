@@ -8,6 +8,7 @@
 <body>
 <div id="container">
     <header>
+        <div class="nav">
         <nav>
             <ul>
                 <li {% if request.servletPath == '/index' %}class="active"{% endif %}><a href="/index">Startseite</a></li>
@@ -15,6 +16,7 @@
                 <li {% if request.servletPath == '/about' %}class="active"{% endif %}><a href="/about">About</a></li>
             </ul>
         </nav>
+        </div>
         <h1>{% block header %}{% endblock %}</h1>
     </header>
     <main>

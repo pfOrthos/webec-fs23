@@ -1,6 +1,7 @@
     {% extends "layout" %}
 
         {% block title %}About{% endblock %}
+        {% block header %}About{% endblock %}
 
     {% block main %}
     <h2>About</h2>
