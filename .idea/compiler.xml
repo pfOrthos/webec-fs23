@@ -8,15 +8,18 @@
         <outputRelativeToContentRoot value="true" />
         <module name="lengthconverter" />
         <module name="contactlist-pebble" />
+        <module name="contactlist-e2e" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="contactlist-e2e" target="17" />
       <module name="contactlist-pebble" target="17" />
       <module name="lengthconverter" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="contactlist-e2e" options="-parameters" />
       <module name="contactlist-pebble" options="-parameters" />
       <module name="lengthconverter" options="-parameters" />
     </option>

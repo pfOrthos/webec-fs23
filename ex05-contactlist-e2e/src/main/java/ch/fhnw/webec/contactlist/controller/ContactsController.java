@@ -1,12 +1,13 @@
 package ch.fhnw.webec.contactlist.controller;
 
+import ch.fhnw.webec.contactlist.model.ContactListEntry;
 import ch.fhnw.webec.contactlist.service.ContactService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.ExceptionHandler;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.ResponseStatus;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+import java.util.stream.Collectors;
 
 import static org.springframework.http.HttpStatus.NOT_FOUND;
 
@@ -21,6 +22,22 @@ public class ContactsController {
 
     @GetMapping("/contacts")
     public String contacts(Model model) {
+        model.addAttribute("contactList", service.getContactList());
+        return "contacts";
+    }
+
+    @GetMapping("/contacts/search")
+    public String searchContacts(@RequestParam String query, Model model) {
+        List<ContactListEntry> searchResult = service.getContactList().stream()
+                .filter(entry -> entry.getName().toLowerCase().contains(query.toLowerCase()))
+                .collect(Collectors.toList());
+        model.addAttribute("contactList", searchResult);
+        model.addAttribute("query", query);
+        return "contacts";
+    }
+
+    @GetMapping("/contacts/clear")
+    public String clearSearch(Model model) {
         model.addAttribute("contactList", service.getContactList());
         return "contacts";
     }

@@ -37,6 +37,7 @@ public class ContactService {
                 .collect(toList());
     }
 
+
     public Optional<Contact> findContact(int id) {
         return Optional.ofNullable(contacts.get(id));
     }

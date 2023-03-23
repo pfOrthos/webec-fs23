@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ex05-contactlist-e2e/contactlist-e2e.iml" filepath="$PROJECT_DIR$/ex05-contactlist-e2e/contactlist-e2e.iml" />
       <module fileurl="file://$PROJECT_DIR$/ex04-contactlist-pebble/contactlist-pebble.iml" filepath="$PROJECT_DIR$/ex04-contactlist-pebble/contactlist-pebble.iml" />
       <module fileurl="file://$PROJECT_DIR$/ex03-length-converter-sol/lengthconverter.iml" filepath="$PROJECT_DIR$/ex03-length-converter-sol/lengthconverter.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/webec-fs23_fork.iml" filepath="$PROJECT_DIR$/.idea/webec-fs23_fork.iml" />

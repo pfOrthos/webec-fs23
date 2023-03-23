@@ -22,6 +22,11 @@ header h1 {
     color: crimson;
 }
 
+button{
+    background-color: crimson;
+    color: white;
+}
+
 header nav ul {
     display: inline-block;
     margin: 0;

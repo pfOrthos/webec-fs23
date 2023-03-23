@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ContactListApplication_sol {
 
     public static void main(String[] args) {
-        SpringApplication.run(ContactListApplication.class, args);
+        SpringApplication.run(ContactListApplication_sol.class, args);
     }
 
 }

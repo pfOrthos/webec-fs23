@@ -21,6 +21,15 @@
         </ul>
     </nav>
     <div>
+        <div>
+            <form action="/contacts/search" method="get">
+                <input type="text" name="query" value="{{ query }}" placeholder="Search contacts...">
+                <button>search</button>
+                <button formaction="/contacts/clear">clear</button>
+            </form>
+        </div>
+
+        <br>
         {% if response.status == 404 %}
             <div class="error">
                 <strong>404</strong> – Contact not found
