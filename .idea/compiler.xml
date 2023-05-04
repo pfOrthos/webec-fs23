@@ -6,22 +6,34 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="lengthconverter" />
+        <module name="contactlist-persistence" />
+        <module name="contactlist-persistence-sol" />
+        <module name="wishlist-persistence" />
         <module name="contactlist-pebble" />
+        <module name="lengthconverter" />
         <module name="contactlist-e2e" />
+        <module name="wishlist-security" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="contactlist-e2e" target="17" />
       <module name="contactlist-pebble" target="17" />
+      <module name="contactlist-persistence" target="17" />
+      <module name="contactlist-persistence-sol" target="17" />
       <module name="lengthconverter" target="17" />
+      <module name="wishlist-persistence" target="17" />
+      <module name="wishlist-security" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="contactlist-e2e" options="-parameters" />
       <module name="contactlist-pebble" options="-parameters" />
+      <module name="contactlist-persistence" options="-parameters" />
+      <module name="contactlist-persistence-sol" options="-parameters" />
       <module name="lengthconverter" options="-parameters" />
+      <module name="wishlist-persistence" options="-parameters" />
+      <module name="wishlist-security" options="-parameters" />
     </option>
   </component>
 </project>

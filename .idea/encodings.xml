@@ -7,5 +7,13 @@
     <file url="file://$PROJECT_DIR$/ex04-contactlist-pebble/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ex05-contactlist-e2e/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ex05-contactlist-e2e/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ex06-contactlist-persistence-sol/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ex06-contactlist-persistence-sol/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ex06-contactlist-persistence/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ex06-contactlist-persistence/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ex07-wishlist-persistence/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ex07-wishlist-persistence/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ex08-wishlist-security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ex08-wishlist-security/src/main/resources" charset="UTF-8" />
   </component>
 </project>

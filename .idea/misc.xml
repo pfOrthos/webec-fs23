@@ -6,6 +6,10 @@
         <option value="$PROJECT_DIR$/ex04-contactlist-pebble/pom.xml" />
         <option value="$PROJECT_DIR$/ex03-length-converter-sol/pom.xml" />
         <option value="$PROJECT_DIR$/ex05-contactlist-e2e/pom.xml" />
+        <option value="$PROJECT_DIR$/ex07-wishlist-persistence/pom.xml" />
+        <option value="$PROJECT_DIR$/ex06-contactlist-persistence-sol/pom.xml" />
+        <option value="$PROJECT_DIR$/ex06-contactlist-persistence/pom.xml" />
+        <option value="$PROJECT_DIR$/ex08-wishlist-security/pom.xml" />
       </list>
     </option>
   </component>
