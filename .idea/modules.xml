@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/ex04-contactlist-pebble/contactlist-pebble.iml" filepath="$PROJECT_DIR$/ex04-contactlist-pebble/contactlist-pebble.iml" />
       <module fileurl="file://$PROJECT_DIR$/ex06-contactlist-persistence/contactlist-persistence.iml" filepath="$PROJECT_DIR$/ex06-contactlist-persistence/contactlist-persistence.iml" />
       <module fileurl="file://$PROJECT_DIR$/ex06-contactlist-persistence-sol/contactlist-persistence-sol.iml" filepath="$PROJECT_DIR$/ex06-contactlist-persistence-sol/contactlist-persistence-sol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ex09-contactlist-responsive/contactlist-responsive.iml" filepath="$PROJECT_DIR$/ex09-contactlist-responsive/contactlist-responsive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ex10-contactlist-rest/contactlist-rest.iml" filepath="$PROJECT_DIR$/ex10-contactlist-rest/contactlist-rest.iml" />
       <module fileurl="file://$PROJECT_DIR$/ex03-length-converter-sol/lengthconverter.iml" filepath="$PROJECT_DIR$/ex03-length-converter-sol/lengthconverter.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/webec-fs23_fork.iml" filepath="$PROJECT_DIR$/.idea/webec-fs23_fork.iml" />
       <module fileurl="file://$PROJECT_DIR$/ex07-wishlist-persistence/wishlist-persistence.iml" filepath="$PROJECT_DIR$/ex07-wishlist-persistence/wishlist-persistence.iml" />

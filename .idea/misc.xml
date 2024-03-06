@@ -10,6 +10,8 @@
         <option value="$PROJECT_DIR$/ex06-contactlist-persistence-sol/pom.xml" />
         <option value="$PROJECT_DIR$/ex06-contactlist-persistence/pom.xml" />
         <option value="$PROJECT_DIR$/ex08-wishlist-security/pom.xml" />
+        <option value="$PROJECT_DIR$/ex10-contactlist-rest/pom.xml" />
+        <option value="$PROJECT_DIR$/ex09-contactlist-responsive/pom.xml" />
       </list>
     </option>
   </component>

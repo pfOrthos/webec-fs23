@@ -6,7 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="contactlist-responsive" />
         <module name="contactlist-persistence" />
+        <module name="contactlist-rest" />
         <module name="contactlist-persistence-sol" />
         <module name="wishlist-persistence" />
         <module name="contactlist-pebble" />
@@ -20,6 +22,8 @@
       <module name="contactlist-pebble" target="17" />
       <module name="contactlist-persistence" target="17" />
       <module name="contactlist-persistence-sol" target="17" />
+      <module name="contactlist-responsive" target="17" />
+      <module name="contactlist-rest" target="17" />
       <module name="lengthconverter" target="17" />
       <module name="wishlist-persistence" target="17" />
       <module name="wishlist-security" target="17" />
@@ -31,6 +35,8 @@
       <module name="contactlist-pebble" options="-parameters" />
       <module name="contactlist-persistence" options="-parameters" />
       <module name="contactlist-persistence-sol" options="-parameters" />
+      <module name="contactlist-responsive" options="-parameters" />
+      <module name="contactlist-rest" options="-parameters" />
       <module name="lengthconverter" options="-parameters" />
       <module name="wishlist-persistence" options="-parameters" />
       <module name="wishlist-security" options="-parameters" />
